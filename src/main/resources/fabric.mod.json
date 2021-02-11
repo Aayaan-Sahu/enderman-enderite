@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "endermanenderite",
+  "version": "${version}",
+
+  "name": "Enderman Enderite",
+  "description": "Very cool",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/endermanenderite/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "notapickle.enderman.enderite.EndermanEnderite"
+    ]
+  },
+  "mixins": [
+    "endermanenderite.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
